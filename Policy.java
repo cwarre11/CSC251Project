@@ -88,6 +88,7 @@ public class Policy {
          }
       return basePrice; 
    }
+/* I keep getting errors when I try to format the decimals to only 2 places, so I omitted this and the decimals are not limited currently. */
 
    public String toString() {
       return "\nPolicy Number: " + policyNumber + "\nProvider Name: " + providerName + "\nPolicyholder's First Name: " + firstName
