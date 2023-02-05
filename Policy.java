@@ -2,14 +2,14 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Policy {
-   private int policyNumber ;
-   private String providerName ;
-   private String firstName ;
-   private String lastName ;
-   private int age ;
-   private String smokingStatus ;
-   private double height ;
-   private double weight ;
+   private int policyNumber;
+   private String providerName;
+   private String firstName;
+   private String lastName;
+   private int age;
+   private String smokingStatus;
+   private double height;
+   private double weight;
    
    public Policy(int policyNumber, String providerName, String firstName, String lastName, int age,
    String smokingStatus, double height, double weight) {
@@ -86,7 +86,7 @@ public class Policy {
          if(this.calculateBMI() > 35) {
          basePrice = basePrice + (this.calculateBMI() - 35) * 20 ;
          }
-      return basePrice;
+      return basePrice; 
    }
 
    public String toString() {
